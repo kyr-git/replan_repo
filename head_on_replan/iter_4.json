@@ -469,9 +469,9 @@
   "replan_dt_s": 1.0,
   "exec_steps": 5,
   "timing": {
-    "raster_ms": 1.6995070000120904,
-    "plan_ms": 15585.360443999889,
-    "cycle_ms": 15587.079328999607
+    "raster_ms": 2.8735139999298553,
+    "plan_ms": 26089.70380400001,
+    "cycle_ms": 26092.590416000006
   },
   "planner_stats": {
     "expansions": 200001,
@@ -495,5 +495,35 @@
     "grow_cells_per_step": 0.15,
     "k_rel_cells_per_mps": 0.5,
     "v_max_mps": 1.2
+  },
+  "frame_state": {
+    "global_time_s": 4.0,
+    "robot": {
+      "x_cells": 21,
+      "y_cells": 25,
+      "x_m": 4.3,
+      "y_m": 5.1000000000000005,
+      "t_s": 0.1
+    },
+    "goal": {
+      "x_cells": 74,
+      "y_cells": 25,
+      "x_m": 14.9,
+      "y_m": 5.1000000000000005,
+      "t_s": 0.1
+    },
+    "obstacles_now": [
+      {
+        "id": 0,
+        "x_cells": 47.0,
+        "y_cells": 25.0,
+        "x_m": 9.5,
+        "y_m": 5.1000000000000005,
+        "vx_cells_per_step": -0.9,
+        "vy_cells_per_step": 0.0,
+        "vx_mps": -0.9,
+        "vy_mps": 0.0
+      }
+    ]
   }
 }
