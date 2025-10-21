@@ -468,6 +468,23 @@
   "total_cost": 16.329998996238267,
   "replan_dt_s": 1.0,
   "exec_steps": 5,
+  "timing": {
+    "raster_ms": 2.828544999999849,
+    "plan_ms": 22435.736099999987,
+    "cycle_ms": 22438.577889999975
+  },
+  "planner_stats": {
+    "expansions": 200001,
+    "openset_peak": 31028,
+    "hit_max_expansions": true
+  },
+  "metrics": {
+    "path_len_m": 7.6,
+    "path_time_s": 7.800000000000001,
+    "rotations_used": 1,
+    "wait_steps": 1,
+    "avg_obs_speed": 0.8000000000000002
+  },
   "zones": {
     "r_abs_cells": 2.0,
     "r_high_cells": 5.0,
@@ -478,5 +495,35 @@
     "grow_cells_per_step": 0.15,
     "k_rel_cells_per_mps": 0.5,
     "v_max_mps": 1.2
+  },
+  "frame_state": {
+    "global_time_s": 1.0,
+    "robot": {
+      "x_cells": 9,
+      "y_cells": 25,
+      "x_m": 1.9000000000000001,
+      "y_m": 5.1000000000000005,
+      "t_s": 0.1
+    },
+    "goal": {
+      "x_cells": 74,
+      "y_cells": 25,
+      "x_m": 14.9,
+      "y_m": 5.1000000000000005,
+      "t_s": 0.1
+    },
+    "obstacles_now": [
+      {
+        "id": 0,
+        "x_cells": 40.0,
+        "y_cells": 9.0,
+        "x_m": 8.1,
+        "y_m": 1.9000000000000001,
+        "vx_cells_per_step": 0.0,
+        "vy_cells_per_step": 0.8,
+        "vx_mps": 0.0,
+        "vy_mps": 0.8000000000000002
+      }
+    ]
   }
 }
